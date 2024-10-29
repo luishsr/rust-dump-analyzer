@@ -1,0 +1,12 @@
+[package]
+name = "dump"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+crossbeam = "0.8.4"
+memchr = "2.7.4"
+tui = "0.19"
+crossterm = "0.28.1"
+rand = "0.9.0-alpha.2"
+ratatui = "0.29.0"
