@@ -18,17 +18,15 @@ Ensure you have Rust installed. You can install Rust from [rust-lang.org](https:
 
 Clone the repository and build the project:
 
-```bash
-git clone https://github.com/luishsr/rust-dump-analyzer.git
-cd rust-dump-analyzer
-cargo build --release
+    git clone https://github.com/luishsr/rust-dump-analyzer.git
+    cd rust-dump-analyzer
+    cargo build --release
 
-## Usage
+## Installation
 
 Run the analyzer on the test dump file:
 
-```bash
-cargo run --bin dump test_dump.bin
+    cargo run --bin dump test_dump.bin
 
 Key Commands
 q: Quit the application
@@ -37,4 +35,4 @@ q: Quit the application
 g: Open the address input popup to jump to a specific address
 
 ## Contributing
-Contributions are welcome! If you encounter bugs or have feature requests, feel free to open an issue or create a pull request.
+Contributions are welcome! If you encounter bugs or have feature requests, open an issue or create a pull request.
